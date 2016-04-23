@@ -1,0 +1,15 @@
+C:\Users\Qitay\Desktop\Obecnosc\Obecnosc\bin\Debug\Obecnosc.dll
+C:\Users\Qitay\Desktop\Obecnosc\Obecnosc\bin\Debug\Obecnosc.pdb
+C:\Users\Qitay\Desktop\Obecnosc\Obecnosc\bin\Debug\Obecnosc.Obecnosc.apk
+C:\Users\Qitay\Desktop\Obecnosc\Obecnosc\bin\Debug\Obecnosc.Obecnosc-Signed.apk
+C:\Users\Qitay\Desktop\Obecnosc\Obecnosc\obj\Debug\Obecnosc.csprojResolveAssemblyReference.cache
+C:\Users\Qitay\Desktop\Obecnosc\Obecnosc\obj\Debug\Obecnosc.dll
+C:\Users\Qitay\Desktop\Obecnosc\Obecnosc\obj\Debug\Obecnosc.pdb
+C:\Users\Qitay\Desktop\Obecnosc\Obecnosc\obj\Debug\android\bin\Obecnosc.Obecnosc.apk
+C:\Users\Qitay\Desktop\Obecnosc\Obecnosc\obj\Debug\res\layout\main.xml
+C:\Users\Qitay\Desktop\Obecnosc\Obecnosc\obj\Debug\res\values\strings.xml
+C:\Users\Qitay\Desktop\Obecnosc\Obecnosc\obj\Debug\res\drawable\icon.png
+C:\Users\Qitay\Desktop\Obecnosc\Obecnosc\obj\Debug\R.cs.flag
+C:\Users\Qitay\Desktop\Obecnosc\Obecnosc\obj\Debug\uploadflags.txt
+C:\Users\Qitay\Desktop\Obecnosc\Obecnosc\obj\Debug\Obecnosc.dll.mdb
+C:\Users\Qitay\Desktop\Obecnosc\Obecnosc\bin\Debug\Obecnosc.dll.mdb
