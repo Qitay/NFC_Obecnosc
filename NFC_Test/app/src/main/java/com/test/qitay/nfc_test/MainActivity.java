@@ -41,11 +41,8 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         mTextView = (TextView) findViewById(R.id.textView_explanation);
-
         mNfcAdapter = NfcAdapter.getDefaultAdapter(this);
-
         if (mNfcAdapter == null) {
             // Stop here, we definitely need NFC
             Toast.makeText(this, "This device doesn't support NFC.", Toast.LENGTH_LONG).show();
@@ -53,20 +50,17 @@ public class MainActivity extends Activity {
             return;
 
         }
-
         if (!mNfcAdapter.isEnabled()) {
             mTextView.setText("NFC is disabled.");
         } else {
             mTextView.setText("ble");
         }
-
-        handleIntent(getIntent());
+        //handleIntent(getIntent());
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-
         /**
          * It's important, that the activity is in the foreground (resumed). Otherwise
          * an IllegalStateException is thrown.
@@ -80,25 +74,35 @@ public class MainActivity extends Activity {
          * Call this before onPause, otherwise an IllegalArgumentException is thrown as well.
          */
         stopForegroundDispatch(this, mNfcAdapter);
-
         super.onPause();
     }
 
     @Override
+//    protected void onNewIntent(Intent intent) {
+//        /**
+//         * This method gets called, when a new Intent gets associated with the current activity instance.
+//         * Instead of creating a new activity, onNewIntent will be called. For more information have a look
+//         * at the documentation.
+//         *
+//         * In our case this method gets called, when the user attaches a Tag to the device.
+//         */
+//        Log.w("start","hmm");
+//        handleIntent(intent);
+//    }
+
     protected void onNewIntent(Intent intent) {
-        /**
-         * This method gets called, when a new Intent gets associated with the current activity instance.
-         * Instead of creating a new activity, onNewIntent will be called. For more information have a look
-         * at the documentation.
-         *
-         * In our case this method gets called, when the user attaches a Tag to the device.
-         */
-        handleIntent(intent);
+        Log.d(TAG, "NFC TAP WHILE ACTIVE");
+        Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+        if (tag != null) {
+            Log.d(TAG, "TAG IS NOT NULL");
+        }
     }
 
     private void handleIntent(Intent intent) {
         String action = intent.getAction();
+        Log.w("start2","hmm");
         if (NfcAdapter.ACTION_NDEF_DISCOVERED.equals(action)) {
+            Log.w("discover", "hmm");
 
             String type = intent.getType();
             if (MIME_TEXT_PLAIN.equals(type)) {
@@ -110,7 +114,7 @@ public class MainActivity extends Activity {
                 Log.d(TAG, "Wrong mime type: " + type);
             }
         } else if (NfcAdapter.ACTION_TECH_DISCOVERED.equals(action)) {
-
+            Log.w("discover", "hmm");
             // In case we would still use the Tech Discovered Intent
             Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
             String[] techList = tag.getTechList();

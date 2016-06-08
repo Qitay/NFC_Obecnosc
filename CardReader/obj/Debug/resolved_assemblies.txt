@@ -1,0 +1,10 @@
+C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\assemblies\CardReader.dll
+C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\assemblies\CommonSampleLibrary.dll
+C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\assemblies\mscorlib.dll
+C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\assemblies\System.dll
+C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\assemblies\System.Net.dll
+C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\assemblies\System.Xml.dll
+C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\assemblies\System.Core.dll
+C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\assemblies\System.Runtime.Serialization.dll
+C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\assemblies\System.ServiceModel.Internals.dll
