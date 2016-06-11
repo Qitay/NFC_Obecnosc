@@ -107,9 +107,6 @@ namespace CardReader {
 			msgFilter.NextNode = logFragment.LogView;
 
 			Log.Info (TAG, "Ready");
-
 		}  
-
-
 	}
 }

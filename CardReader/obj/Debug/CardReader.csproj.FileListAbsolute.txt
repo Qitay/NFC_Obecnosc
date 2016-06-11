@@ -37,7 +37,6 @@ C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\bin\Debug\com.xamarin.cardreader.
 C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\bin\Debug\com.xamarin.cardreader-Signed.apk
 C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\bin\Debug\CommonSampleLibrary.dll
 C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\bin\Debug\CommonSampleLibrary.pdb
-C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\bin\Debug\CommonSampleLibrary.dll.mdb
 C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\CardReader.csprojResolveAssemblyReference.cache
 C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\CardReader.dll
 C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\CardReader.pdb
@@ -62,5 +61,6 @@ C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\res\values\template-dim
 C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\res\values\template-styles.xml
 C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\R.cs.flag
 C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\uploadflags.txt
+C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\bin\Debug\CommonSampleLibrary.dll.mdb
 C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\obj\Debug\CardReader.dll.mdb
 C:\Users\Qitay\Desktop\NFC_Obecnosc\CardReader\bin\Debug\CardReader.dll.mdb

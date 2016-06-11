@@ -19,20 +19,26 @@ using Android.Nfc.Tech;
 
 namespace Obecnosc
 {
-
-
     [Activity(Label = "BAZA DANYCH", MainLauncher = true, Icon = "@drawable/icon")]
-    public class MainActivity : Activity, NfcAdapter.IReaderCallback
+    public class MainActivity : Activity
     {
-        TextView txtResult;
-        EditText editText;
+        public TextView txtResult;
+        public EditText editText;
         public static SqliteConnection connection;
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-            
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+
+            if (bundle == null)
+            {
+                FragmentTransaction transaction = FragmentManager.BeginTransaction();
+                var fragment = new ReaderFragment();
+                transaction.Replace(Resource.Id.linearLayout1, fragment);
+                transaction.Commit();
+            }
 
             // assign variables to the used view widgets
             var btnCreate = FindViewById<Button>(Resource.Id.button1);
@@ -70,7 +76,6 @@ namespace Obecnosc
             {
                 txtResult.Text = await delete();
             };
-            //EnableReaderMode();
         }
 
         //protected override void OnPause()
@@ -107,16 +112,16 @@ namespace Obecnosc
         //    }
         //}
 
-        public void OnTagDiscovered(Android.Nfc.Tag tag)
-        {
-            txtResult = FindViewById<TextView>(Resource.Id.textView1);
-            txtResult.Text = "aaaa";
-            IsoDep isoDep = IsoDep.Get(tag);
-            if (isoDep != null)
-            {
-                txtResult.Text = "aaaa";
-            }
-        }
+        //public void OnTagDiscovered(Android.Nfc.Tag tag)
+        //{
+        //    txtResult = FindViewById<TextView>(Resource.Id.textView1);
+        //    txtResult.Text = "aaaa";
+        //    IsoDep isoDep = IsoDep.Get(tag);
+        //    if (isoDep != null)
+        //    {
+        //        txtResult.Text = "aaaa";
+        //    }
+        //}
 
         [Table("People")]
         public class People

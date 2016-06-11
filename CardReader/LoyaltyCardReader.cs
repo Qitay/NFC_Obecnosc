@@ -181,9 +181,6 @@ namespace CardReader
 			}
 			return data;
 		}  
-
-			
 	}
-
 }
 

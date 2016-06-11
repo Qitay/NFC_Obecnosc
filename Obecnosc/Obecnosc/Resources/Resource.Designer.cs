@@ -60,26 +60,35 @@ namespace Obecnosc
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int button1 = 2131034112;
+			// aapt resource value: 0x7f060003
+			public const int button1 = 2131099651;
 			
-			// aapt resource value: 0x7f050001
-			public const int button2 = 2131034113;
+			// aapt resource value: 0x7f060002
+			public const int button2 = 2131099650;
 			
-			// aapt resource value: 0x7f050002
-			public const int button3 = 2131034114;
+			// aapt resource value: 0x7f060004
+			public const int button3 = 2131099652;
 			
-			// aapt resource value: 0x7f050003
-			public const int button4 = 2131034115;
+			// aapt resource value: 0x7f060005
+			public const int button4 = 2131099653;
 			
-			// aapt resource value: 0x7f050004
-			public const int button5 = 2131034116;
+			// aapt resource value: 0x7f060006
+			public const int button5 = 2131099654;
 			
-			// aapt resource value: 0x7f050006
-			public const int editText = 2131034118;
+			// aapt resource value: 0x7f060007
+			public const int editText = 2131099655;
 			
-			// aapt resource value: 0x7f050005
-			public const int textView1 = 2131034117;
+			// aapt resource value: 0x7f060000
+			public const int linearLayout1 = 2131099648;
+			
+			// aapt resource value: 0x7f060008
+			public const int scrollView1 = 2131099656;
+			
+			// aapt resource value: 0x7f060009
+			public const int textView1 = 2131099657;
+			
+			// aapt resource value: 0x7f060001
+			public const int textView2 = 2131099649;
 			
 			static Id()
 			{
@@ -95,7 +104,10 @@ namespace Obecnosc
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int layout1 = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
 			
 			static Layout()
 			{
@@ -110,11 +122,11 @@ namespace Obecnosc
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int ApplicationName = 2131034113;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int Hello = 2131034112;
 			
 			static String()
 			{
@@ -122,6 +134,22 @@ namespace Obecnosc
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Xml
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int nfc_tech_filter = 2130968576;
+			
+			static Xml()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Xml()
 			{
 			}
 		}

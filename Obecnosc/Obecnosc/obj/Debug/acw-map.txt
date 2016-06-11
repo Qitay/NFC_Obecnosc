@@ -1,8 +1,0 @@
-Obecnosc.MainActivity, Obecnosc;md558b710577273d55ff1148f91bdd1c90d.MainActivity
-Obecnosc.MainActivity, Obecnosc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md558b710577273d55ff1148f91bdd1c90d.MainActivity
-Obecnosc.MainActivity;md558b710577273d55ff1148f91bdd1c90d.MainActivity
-obecnosc.MainActivity;md558b710577273d55ff1148f91bdd1c90d.MainActivity
-Obecnosc.ReaderFragment, Obecnosc;md558b710577273d55ff1148f91bdd1c90d.ReaderFragment
-Obecnosc.ReaderFragment, Obecnosc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md558b710577273d55ff1148f91bdd1c90d.ReaderFragment
-Obecnosc.ReaderFragment;md558b710577273d55ff1148f91bdd1c90d.ReaderFragment
-obecnosc.ReaderFragment;md558b710577273d55ff1148f91bdd1c90d.ReaderFragment
